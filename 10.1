@@ -12,7 +12,7 @@
          get { return pages; }
          set
          {
-                 if (pages < 0 || pages > 5000)
+                 if (value < 0 || value > 5000)
                  {
                      Console.WriteLine("Ошибка");
                  }
